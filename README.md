@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -24,6 +25,8 @@ Desktop Preview
 
 ![desktop-preview](https://user-images.githubusercontent.com/126303552/221576165-6bef1c0b-9261-40e7-98e8-a282ea20dc1b.png)
 
+### Links
+  - Live Site URL: [QR-code-component](https://tiana-coker.github.io/QR-code-component/)
 
 ## My process
 
