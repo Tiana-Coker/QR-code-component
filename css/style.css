@@ -11,12 +11,16 @@ body{
     padding:10%;
     background-color: var(--light-blue);
     font-family: 'Outfit', sans-serif;
+   
+    
+
 }
 
 
 .main-container{
    
     text-align: center;
+   
     
 }
 
@@ -38,13 +42,25 @@ body{
 
 
 
-p:first-child{
+/*p:first-child{
     font-weight: 700;
     color:var(--dark-blue);
     font-size: 1.2rem;
 }
+*/
 
-p:nth-child(2){
+.content{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+h1{
+    font-weight: 700;
+    color:var(--dark-blue);
+    font-size: 1.4rem;
+
+}
+p{
     font-weight: 400;
     color:var(--grayish-blue);
     font-size: 0.8rem;
@@ -74,11 +90,11 @@ aside{
     border-radius: 35px;
   }
 
-  p:first-child{
+  h1{
     font-size:2rem;
   }
 
-  p:nth-child(2){
+  p{
     font-size: 1.3rem;
   }
 
@@ -101,11 +117,11 @@ aside{
         
     }
 
-    p:first-child{
+    h1{
         font-size: 1.5rem;
     }
 
-    p:nth-child(2){
+    p{
         font-size: 1rem;
     }
 
