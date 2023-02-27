@@ -3,87 +3,111 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue:hsl(218, 44%, 22%);
-    --light-blue:hsl(210, 54%, 73%);
+    --light-blue:hsl(211, 48%, 85%);
 
-}
-
-
-html{
-    font-size: 62.5%;
-    font-family: 'Outfit', sans-serif;
 }
 
 body{
-    font-size: 1.5rem;
+    padding:10%;
     background-color: var(--light-blue);
-    margin:10px;
+    font-family: 'Outfit', sans-serif;
 }
 
+
+.main-container{
+   
+    text-align: center;
+    
+}
 
 .container{
-    background-color: var(--white);
-
-    width: 60%;
-   
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-    position:relative;
-    left: 20%;
-    margin-top: 20%;
-  
     
-
-    }
-
-.qrcode{
-    width:100%;
-    object-fit: cover;
+    padding: 15px;
+    background-color: var(--white);
+    border-radius: 20px;
+    
+    
 }
+
+
 
 .qrcode img{
     width:100%;
-    border-radius: 5px;
-
+    border-radius: 15px;
 }
+
 
 
 p:first-child{
     font-weight: 700;
-    color: var(--dark-blue);
-    text-align: center;
-    font-size: 1rem;
-    padding: 2px 5px;
-    
+    color:var(--dark-blue);
+    font-size: 1.2rem;
 }
-
 
 p:nth-child(2){
-    color: var(--grayish-blue);
     font-weight: 400;
-    font-size: 0.7rem;
-    text-align: center;
-    padding:5px;
-    margin-top: -5px;
-    
+    color:var(--grayish-blue);
+    font-size: 0.8rem;
 }
 
-.attribution { 
-    font-size: 1rem; 
-    text-align: center; 
-    color: var(--dark-blue);
-    position: relative;
-    top: 15px;
+aside{
+    margin-top: 20px;
+}
+
+.attribution{
+    color:var(--dark-blue);
+}
+
+.attribution a {
+    color:var(--dark-blue);
+    font-weight: 700;
+}
+
+/* Tablet screens */
+@media screen and (min-width:768px){
+    body{
+        padding:20%;
+    }
     
-    
+  .container{
+    padding: 20px;
+    border-radius: 35px;
+  }
+
+  p:first-child{
+    font-size:2rem;
+  }
+
+  p:nth-child(2){
+    font-size: 1.3rem;
+  }
+
 }
 
 
+/* Desktop screens */
+@media screen and (min-width:1024px){
 
+    body{
+        padding:20% 30%;
+    }
+    
+    .container{
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .main-container{
+        width: 350px;
+        
+    }
 
-.attribution a { 
-    color: hsl(212, 89%, 14%);
- }
+    p:first-child{
+        font-size: 1.5rem;
+    }
+
+    p:nth-child(2){
+        font-size: 1rem;
+    }
+
+}
+
