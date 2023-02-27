@@ -42,12 +42,7 @@ body{
 
 
 
-/*p:first-child{
-    font-weight: 700;
-    color:var(--dark-blue);
-    font-size: 1.2rem;
-}
-*/
+
 
 .content{
     margin-left:10px;
@@ -58,12 +53,14 @@ h1{
     font-weight: 700;
     color:var(--dark-blue);
     font-size: 1.4rem;
-
 }
 p{
     font-weight: 400;
     color:var(--grayish-blue);
     font-size: 0.8rem;
+    padding:5px 15px;
+  
+    
 }
 
 aside{
@@ -72,6 +69,7 @@ aside{
 
 .attribution{
     color:var(--dark-blue);
+    
 }
 
 .attribution a {
